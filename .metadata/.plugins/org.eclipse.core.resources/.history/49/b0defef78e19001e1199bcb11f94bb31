@@ -1,0 +1,28 @@
+package com.cascade;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+import com.map2.Answer1;
+import com.map2.Question1;
+
+public class Cascading {
+	public static void main(String[] args) {
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		Session s = factory.openSession();
+		
+		Question1 q1 = new Question1();
+		q1.setQuestionId(786);
+		q1.setQuestion("What is cascading?");
+		
+		Answer1 ans1 = new Answer1(123,"It is important concept of hibernate", q1);
+		Answer1 ans2 = new Answer1(124,"2nd Answer", q1);
+		Answer1 ans3 = new Answer1(125,"3rd Answer", q1);
+		
+		
+		s.close();
+		factory.close();
+	}
+}

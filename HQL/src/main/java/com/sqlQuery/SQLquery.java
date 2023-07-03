@@ -19,7 +19,6 @@ public class SQLquery {
 		for(Student st:list) {
 			System.out.println(st.getName());
 		}
-		
 		s.close();
 		factory.close();
 	}

@@ -1,0 +1,16 @@
+package com.cascade;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+public class Cascading {
+	public static void main(String[] args) {
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		Session s = factory.openSession();
+		
+		s.close();
+		factory.close();
+	}
+}

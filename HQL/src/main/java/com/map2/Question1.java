@@ -2,6 +2,7 @@ package com.map2;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -15,7 +16,7 @@ public class Question1 {
 	private int questionId;
 	private String question;
 //For many answer we use list
-	@OneToMany(mappedBy = "question", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "question", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Answer1> answers;
 
 	public Question1() {
