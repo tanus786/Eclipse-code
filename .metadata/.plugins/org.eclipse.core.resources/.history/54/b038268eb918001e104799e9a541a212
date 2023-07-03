@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<%@include file="JsCss.jsp"%>
+<title>All Notes</title>
+</head>
+<body>
+	<div class="container-fluid p-0 m-0">
+		<%@include file="navbar.jsp"%>
+	</div>
+	<br>
+	<div class="container">
+		<h1 style="font-weight: 300">ALL NOTES</h1>
+		
+	</div>
+
+</body>
+</html>
