@@ -11,14 +11,17 @@
     <fullyQualifiedTypeName name="org.apache.catalina.tribes.util.Arrays"/>
     <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
     <fullyQualifiedTypeName name="com.map2.Question1"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.map2.Answer1"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="net.sf.ehcache.hibernate.EhCacheRegionFactory"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Cacheable"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Cache"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CacheConcurrencyStrategy"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="com.mapping.xml.Person"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="com.criteria.Criteria"/>
+    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.tut.Student"/>
 </qualifiedTypeNameHistroy>
