@@ -19,4 +19,4 @@
 	<bean class="com.springcore.Student" name="student2"
 		p:studentId="102" p:studentName="Riya" p:studentAddress="Delhi" />
 
-</beans>
+</beans> 
