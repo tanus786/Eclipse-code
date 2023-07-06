@@ -27,14 +27,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.springcore"/>
 			<item value="com.tut"/>
 			<item value="com.todo"/>
 		</list>
 		<list key="groupId">
+			<item value="com.springcore"/>
 			<item value="com.tut"/>
 			<item value="com.todo"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringCore"/>
 			<item value="HQL"/>
 			<item value="NoteTaker"/>
 		</list>
