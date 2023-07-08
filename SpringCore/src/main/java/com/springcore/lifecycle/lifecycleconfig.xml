@@ -8,12 +8,15 @@
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean class="com.springcore.lifecycle.Samosa" name="s1"
-		init-method="init" destroy-method="destroy">
-		<property name="price" value="10" />
-	</bean>
+<context:annotation-config />
 
-	<bean class="com.springcore.lifecycle.Pepsi" name="pep">
-		<property name="price" value="50" />
+
+	<!-- <bean class="com.springcore.lifecycle.Samosa" name="s1" init-method="init" 
+		destroy-method="destroy"> <property name="price" value="10" /> </bean> <bean 
+		class="com.springcore.lifecycle.Pepsi" name="pep"> <property name="price" 
+		value="50" /> </bean> -->
+		
+	<bean class="com.springcore.lifecycle.Example" name="ex">
+		<property name="subject" value="Chemistry" />
 	</bean>
 </beans> 
