@@ -11,10 +11,7 @@ public class App {
 		System.out.println(student1);
 		Student student2 =(Student)con.getBean("student2");
 		System.out.println(student2);
-		
-		
-		
-		
+			
 	}
 }
  
