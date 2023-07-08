@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.helper.FactoryProvider"/>
     <fullyQualifiedTypeName name="jakarta.persistence.criteria.CriteriaBuilder.In"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.entities.Note"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
@@ -29,4 +28,13 @@
     <fullyQualifiedTypeName name="com.springcore.collections.Emp"/>
     <fullyQualifiedTypeName name="com.springcore.ref.A"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.springcore.ci.Person"/>
+    <fullyQualifiedTypeName name="com.springcore.ci.Certificate"/>
+    <fullyQualifiedTypeName name="com.springcore.ci.Addition"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.springcore.lifecycle.Samosa"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="com.springcore.lifecycle.Pepsi"/>
 </qualifiedTypeNameHistroy>
