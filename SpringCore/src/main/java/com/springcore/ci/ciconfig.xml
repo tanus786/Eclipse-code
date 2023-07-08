@@ -12,10 +12,15 @@
 	<bean class="com.springcore.ci.Certificate" name="cer">
 		<constructor-arg value="Java" />
 	</bean>
-
+	
 	<bean class="com.springcore.ci.Person" name="person">
 		<constructor-arg value="Tanu soni" />
 		<constructor-arg value="101" type="int" />
 		<constructor-arg ref="cer" />
+	</bean>
+	
+	<bean class="com.springcore.ci.Addition" name="add">
+		<constructor-arg value="12" type="int" index = "1"/>
+		<constructor-arg value="34"  type="int" index = "0"/>
 	</bean>
 </beans> 
