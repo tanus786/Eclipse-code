@@ -9,5 +9,6 @@ public class Test {
 		ApplicationContext con = new ClassPathXmlApplicationContext("com/springcore/collections/collectionconfig.xml");
 		Emp emp1 =(Emp) con.getBean("emp1");
 		System.out.println(emp1);
+		System.out.println(emp1.getPhones().getClass().getName());
 	}
 }
