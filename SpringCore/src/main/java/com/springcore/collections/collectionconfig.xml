@@ -10,7 +10,7 @@
 
 
 	
-	<bean name="emp1" class="com.springcore.collections.Emp">
+	<bean name="emp1" class="com.springcore.collections.Emp" scope="prototype">
 		<property name="name" value="Radhe" />
 		<property name="phones">
 			<list>
