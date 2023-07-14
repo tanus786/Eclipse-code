@@ -27,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc.SpringMvc"/>
+			<item value="com.spring.mvc"/>
 			<item value="com.spring.orm"/>
 			<item value="com.spring.jdbc"/>
 			<item value="com.springcore"/>
@@ -34,6 +36,7 @@
 			<item value="com.todo"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring.mvc"/>
 			<item value="com.spring.orm"/>
 			<item value="com.spring.jdbc"/>
 			<item value="com.springcore"/>
@@ -41,6 +44,8 @@
 			<item value="com.todo"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvc"/>
+			<item value="SpringMVC"/>
 			<item value="SpringOrm"/>
 			<item value="SpringORM"/>
 			<item value="SpringJdbc"/>
