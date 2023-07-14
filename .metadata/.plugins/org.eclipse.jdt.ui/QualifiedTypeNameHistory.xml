@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.map2.Question1"/>
-    <fullyQualifiedTypeName name="com.map2.Answer1"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="net.sf.ehcache.hibernate.EhCacheRegionFactory"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Cacheable"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.Cache"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.CacheConcurrencyStrategy"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-    <fullyQualifiedTypeName name="com.mapping.xml.Person"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="com.criteria.Criteria"/>
     <fullyQualifiedTypeName name="java.lang.LinkageError"/>
     <fullyQualifiedTypeName name="com.tut.Student"/>
@@ -19,7 +9,6 @@
     <fullyQualifiedTypeName name="com.springcore.ci.Person"/>
     <fullyQualifiedTypeName name="com.springcore.ci.Certificate"/>
     <fullyQualifiedTypeName name="com.springcore.ci.Addition"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.springcore.lifecycle.Samosa"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
@@ -44,8 +33,6 @@
     <fullyQualifiedTypeName name="com.springcore.javaconfig.JavaConfig"/>
     <fullyQualifiedTypeName name="com.springcore.javaconfig.Student"/>
     <fullyQualifiedTypeName name="com.springcore.javaconfig.Samosa"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.spring.jdbc.dao.RowMapperImpl"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTemplate"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="java.applet.AppletContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.orm.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.spring.orm.entities.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 </qualifiedTypeNameHistroy>
