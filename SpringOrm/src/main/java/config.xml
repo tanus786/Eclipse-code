@@ -25,7 +25,7 @@
 	</bean>
 	<bean
 		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean"
-		name="factory1">
+		name="factory">
 		<!-- DataSource -->
 		<property name="dataSource" ref="ds"></property>
 		<!-- Hibernate Properties -->
@@ -46,7 +46,7 @@
 
 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate"
 		name="hibernateTemplate">
-		<property name="sessionFactory" ref="factory1"></property>
+		<property name="sessionFactory" ref="factory"></property>
 	</bean>
 
 	<bean class="com.spring.orm.dao.StudentDao" name="studentDao">
@@ -55,7 +55,7 @@
 	<bean
 		class="org.springframework.orm.hibernate5.HibernateTransactionManager"
 		name="transactionManager">
-		<property name="sessionFactory" ref="factory1"></property>
+		<property name="sessionFactory" ref="factory"></property>
 
 	</bean>
 </beans> 
