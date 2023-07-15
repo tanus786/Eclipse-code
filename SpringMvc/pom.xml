@@ -28,6 +28,13 @@
 			<!-- Set this to the respective version -->
 			<version>3.0.5.RELEASE</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>SpringMvc</finalName>

@@ -38,6 +38,11 @@ public class HomeController {
 		modelAndView.addObject("id", 123);
 		LocalDateTime localDateTime = LocalDateTime.now();
 		modelAndView.addObject("date",localDateTime);
+		List<String> friends = new ArrayList<String>();
+		friends.add("Vanshika");
+		friends.add("updesh");
+		friends.add("upasana");
+		modelAndView.addObject("fri", friends);
 		//setting the view name
 		modelAndView.setViewName("help");
 		return modelAndView;
