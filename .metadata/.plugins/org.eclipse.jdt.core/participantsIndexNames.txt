@@ -7,5 +7,9 @@ C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \SpringMvc\src\main\resources
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2152000891.index
 \SpringMvc\src\main\java
+C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\767771509.index
+\springsearch\src\main\java
+C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\846858026.index
+\springsearch\src\main\resources
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2466338717.index
 \HQL\src\main\resources
