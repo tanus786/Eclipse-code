@@ -46,6 +46,7 @@
 			<item value="com.todo"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringSearch"/>
 			<item value="springsearch"/>
 			<item value="SpringMvc"/>
 			<item value="SpringMVC"/>
