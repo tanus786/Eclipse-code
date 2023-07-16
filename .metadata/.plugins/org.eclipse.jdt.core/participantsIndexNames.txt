@@ -5,10 +5,14 @@ C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \springsearch\src\main\java
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2389236961.index
 \NoteTaker\src\main\resources
+C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\511674069.index
+\productapp\src\main\java
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2466338717.index
 \HQL\src\main\resources
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1185353194.index
 \SpringMvc\src\main\resources
+C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2073181622.index
+\productapp\src\main\java
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\846858026.index
 \springsearch\src\main\resources
 C:\Users\tanus\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2354722377.index
