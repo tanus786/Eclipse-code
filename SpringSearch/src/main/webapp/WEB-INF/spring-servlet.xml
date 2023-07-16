@@ -25,10 +25,16 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	<!-- Configuring multipart resolver -->
-	
-	<bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" name="multipartResolver">
-	
-	
-	
+
+	<bean
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+		name="multipartResolver">
 	</bean>
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/welcome" />
+			<bean class="springmvcsearch.MyInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
 </beans>
