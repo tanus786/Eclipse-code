@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,6 +18,9 @@
 				<div class="card">
 					<div class="card-body">
 						<h3 class="text-center">Registration Form</h3>
+						<div class="alert alert-danger" role="alert">
+							<form:errors path="student.*" />
+						</div>
 						<form action="handle" method="post">
 							<div class="form-group">
 								<label for="exampleInputEmail1" class="form-label">Name</label>
@@ -44,10 +48,10 @@
 									</select>
 								</div>
 								<div class="form-group mt-3">
-									<span class="mr-3">Select Gender</span> <br>
-									<input class="form-check-input" type="radio" name="gender"
+									<span class="mr-3">Select Gender</span> <br> <input
+										class="form-check-input" type="radio" name="gender"
 										id="flexRadioDefault1" value="Male"> <label
-										class="form-check-label" for="flexRadioDefault1" > Male
+										class="form-check-label" for="flexRadioDefault1"> Male
 									</label>
 								</div>
 								<div class="form-group">
@@ -63,9 +67,23 @@
 										<option>New Student</option>
 									</select>
 								</div>
+								<div class="card mt-3">
+									<div class="card-body">
+										<p>Address</p>
+										<div class="form-group">
+											<input type="text" class="form-control"
+												placeholder="Enter Street" name="address.street" />
+										</div>
+										<div class="form-group mt-2">
+											<input type="text" class="form-control"
+												placeholder="Enter city" name="address.city" />
+										</div>
+									</div>
+								</div>
 								<div class="container text-center">
 									<button type="submit" class="btn btn-primary mt-3">Submit</button>
 								</div>
+
 							</div>
 						</form>
 					</div>
