@@ -1,3 +1,4 @@
 GitRepositoriesView.GitDirectories=C\:\\Users\\tanus\\eclipse-workspace\\.git;D\:\\SpringBoot\\.git;D\:\\NoteTaker\\.git;
 GitRepositoriesView.GitDirectories.relative=.git;D\:\\SpringBoot\\.git;D\:\\NoteTaker\\.git;
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

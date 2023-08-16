@@ -105,6 +105,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\tanus\Downloads\SpringAssignment-main"/>
 			<item value="D:\SpringBoot\SpringBootProject1\SpringBootProject1"/>
 			<item value="C:\Users\tanus\Downloads\springbootproject\springbootproject"/>
 		</list>
